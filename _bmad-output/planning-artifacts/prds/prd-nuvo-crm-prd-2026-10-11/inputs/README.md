@@ -1,0 +1,4 @@
+# Inputs del PRD
+
+- `prospectos-semanales-california.md` (vigente) — ficha y prompt del agente "Prospectos semanales California", que el usuario pegó en el chat el 2026-10-11. Es una rutina programada de Claude (ID `trig_01EwazS9cahxX42WB5kyhob4`) que corre los lunes a las 7:45 a.m. (America/Mexico_City) con `claude-opus-5-5`, aprobaciones automáticas y sesión nueva en cada corrida, y notifica por push y correo. Conectores: HubSpot, Gmail, Google Drive, Docs, Calendar, ClickUp, Claude Docs y Claude Code Remote. Busca entre 15 y 20 empresas de California con ventas de $1M a $10M, las califica del 1 al 10 y registra las de 6 o más en HubSpot (COMPANY, CONTACT y TASK).
+- `prospeccion-california.md` (descartado) — versión anterior que escribía en Comp AI CRM por REST. El usuario aclaró que no es el agente correcto.
